@@ -1,0 +1,17 @@
+{
+  "name": "ai-stone-paper-scissors",
+  "version": "1.0.0",
+  "description": "Interactive Stone-Paper-Scissors game with Adaptive Markov Chain AI and Docker support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["stone-paper-scissors", "docker", "express", "game", "markov-chain", "machine-learning"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}

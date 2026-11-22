@@ -1,0 +1,10 @@
+services:
+  rps-game:
+    build: .
+    container_name: ai-stone-paper-scissors-app
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - NODE_ENV=production

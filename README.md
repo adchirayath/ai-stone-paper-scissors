@@ -122,19 +122,6 @@ ai-stone-paper-scissors/
 
 ---
 
-## 📤 Uploading to GitHub
-
-```bash
-git init
-git add .
-git commit -m "feat: initial commit for Dockerized Stone-Paper-Scissors"
-git branch -M main
-git remote add origin https://github.com/adchirayath/ai-stone-paper-scissors.git
-git push -u origin main
-```
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
